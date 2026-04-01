@@ -14,8 +14,8 @@ def assignment_averages(students):
             if assignment not in totals:
                 totals[assignment] = 0
                 counts[assignment] = 0
-        totals[assignment] += grade 
-        counts[assignment] += 1
+            totals[assignment] += grade 
+            counts[assignment] += 1
     averages = {}
 
     for assignment in totals:
