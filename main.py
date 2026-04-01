@@ -29,6 +29,7 @@ def main():
             else:
                 print("Invalid option selected!")
         elif option =="3":
+            print("Goodbye!")
             break
         else:
             print("Invalid option selected!")
