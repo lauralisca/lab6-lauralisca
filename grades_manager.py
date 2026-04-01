@@ -32,7 +32,7 @@ def get_students(student_grades, keys):
                 found = True
                 break 
         if not found:
-            print(f"{name.title()}not found!")
+            print(f"{name.title()} not found!")
     return result
 
 def avg_by_student(student_grades, keys= None):
@@ -45,4 +45,4 @@ def avg_by_student(student_grades, keys= None):
             average = 0 
         else:
             average = sum(subjects.values()) / len(subjects)
-        print(f"{student}: {average:1f}")
+        print(f"{student}: {average:.1f}")
