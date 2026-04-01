@@ -5,4 +5,4 @@ def get_config():
         "color_mode": "dark",
         "sensitivity": 0.4
     }
-    return config
+    return get_config
